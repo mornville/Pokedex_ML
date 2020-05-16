@@ -43,7 +43,7 @@ def search(query, location, number):
     # args = vars(ap.parse_args())
 
 
-    API_KEY = "45847ab9fe794c45bc5b0790c6b58868"
+    API_KEY = "API_KEY_BING_SEARCH_API"
     GROUP_SIZE = number
     MAX_RESULTS = number*2
 

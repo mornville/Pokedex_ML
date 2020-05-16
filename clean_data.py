@@ -19,4 +19,3 @@ for item in subdirs:
                 '''The files removed by the next command cant be recovered by any 
                 means, check the path carefully'''
                 os.remove('dataset/test/' + str(item) + '/' + str(i))
-        
