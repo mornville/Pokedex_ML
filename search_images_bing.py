@@ -93,15 +93,22 @@ def search(query, location, number):
         image = cv2.imread(p)
         if image is None:
             print("[INFO] deleting: {}".format(p))
-            os.remove(p)
+            try:
+                os.remove(p)
+            except:
+                pass
             continue
         else:
             print('Resizeing')
-            image_resize(p, image, width=100, height=100)
+            try:
+                image_resize(p, image, width=100, height=100)
+            except:
+                pass
 
 
         total += 1
-
-    print('Total images downloaded: '+ str(total))
+    print('----------------------------\n\n')
+    print('Total images downloaded: '+ str(total) +'\n\n')
+    print('----------------------------\n\n')
 
 
