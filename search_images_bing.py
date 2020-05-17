@@ -43,7 +43,7 @@ def search(query, location, number):
     # args = vars(ap.parse_args())
 
 
-    API_KEY = "API_KEY_BING_SEARCH_API"
+    API_KEY = "BING_SEARCH_API_KEY"
     GROUP_SIZE = number
     MAX_RESULTS = number*2
 
@@ -81,7 +81,7 @@ def search(query, location, number):
             print("[INFO] fetching: {}".format(v["contentUrl"]))
             r = requests.get(v["contentUrl"], timeout=30)
             ext = v["contentUrl"][v["contentUrl"].rfind("."):]
-            p = os.path.sep.join([location, "{}{}".format(str(term)+'.'+str(total), ext)])
+            p = os.path.sep.join([location, "{}{}".format(str(term)+'.'+str(total+100), ext)])
             f = open(p, "wb")
             f.write(r.content)
             f.close()

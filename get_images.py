@@ -20,5 +20,5 @@ for i in range(0, 166):
 
 def getImages(min, max):
     for i in range(min, max):
-        search.search(gen1Pokemon[i][0], 'dataset/test/' + gen1Pokemon[i][0], 30)
+        search.search(gen1Pokemon[i][0], 'dataset/test/' + gen1Pokemon[i][0], 25)
 
