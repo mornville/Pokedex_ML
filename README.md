@@ -9,10 +9,11 @@ A deep learning project to identify Pokemon.
 - Total Classes of Pokemon = 166
 
 ### VGG16 Model (Accuracy 51.23%)
-<img src="Vgg16 - 51.63.png">
+<img src="Accuracy Charts/Vgg16 - 51.63.png">
 
 ### MobileNet Model (Accuracy 63.237%)
-<img src="MObileNet - 63.237.png">
+<img src="Accuracy Charts/MobileNet - 63.237.png">
 
 ### View Code in Kaggle
 <a href="https://www.kaggle.com/mornville/pokedex/edit/run/34643259">Kaggle Notebook</a>
+
