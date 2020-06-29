@@ -1,5 +1,5 @@
-# Pokedex_DeepLearning
-A deep learning project to identify Pokemon.
+# Pokedex_ML
+CNNs Project to identify Pokemon.
 <p>Custom Dataset - 33, 358 Train and 7, 396 Test images(100*100), 166 Classes of Pokemon.</p>
 
 # About
@@ -15,5 +15,5 @@ A deep learning project to identify Pokemon.
 <img src="Accuracy Charts/MobileNet - 63.237.png">
 
 ### View Code in Kaggle
-<a href="https://www.kaggle.com/mornville/pokedex/edit/run/34643259">Kaggle Notebook</a>
+<a href="https://www.kaggle.com/mornville/pokedex">https://www.kaggle.com/mornville/pokedex</a>
 
